@@ -9,6 +9,16 @@
   * submit a link to your PR in canvas
   * write a question and observation on canvas
 
+# Include
+* gitignore
+* eslint
+* package.json
+* gulpfile
+* readme
+ * Write a paragraph about your project 
+ * Write docs on how to get the project running
+ * Write docs on how to connect to the server
+ 
 ## Directions
 * Create a TCP Server use using the net module
 * Create a Clinet Constructor 
