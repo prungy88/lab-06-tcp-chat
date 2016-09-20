@@ -1,0 +1,21 @@
+{
+  "name": "lab-sarah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+  "node-uuid": "^1.4.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sarah.debey@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+   "eslint": "^3.5.0",
+   "gulp": "^3.9.1",
+   "gulp-eslint": "^3.0.1",
+   "gulp-mocha": "^3.0.1",
+   "mocha": "^3.0.2"
+ }
+}
