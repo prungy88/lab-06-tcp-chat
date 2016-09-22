@@ -4,10 +4,6 @@ const gulp = require('gulp');
 const eslint = require('gulp-eslint');
 const mocha = require('gulp-mocha');
 
-gulp.task('hello', function(){
-  console.log('hello');
-});
-
 gulp.watch('***/*.js', ['hello']);
 
 gulp.task('lint', function () {
