@@ -62,17 +62,15 @@ server.on('connection', function(socket) {
     console.error(err);
   });
 
-  socket.on('close', function(socket) {
+  socket.on('close', function(client) {
     for (var i = 0; i < pool.length; i++) {
-      if (pool[i].id === socket.id) {
-        var desiredIndex = pool.indexOf(socket);
+      if (pool[i].id === client.id) {
+        var desiredIndex = pool.indexOf(client);
         pool.splice(desiredIndex, 1);
       }
     }
   });
-
 });
-
 
 server.listen(PORT, function(){
   console.log('server running on port', PORT);
